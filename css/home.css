@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("/images/background.jpg"); 
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.main-container {
+    border-radius: 20px;
+    background-color:black;
+    opacity: 0.65;
+    position: absolute;
+    padding: 2%;
+    height: auto;
+    width: 25%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+h1 {
+    font-size: 30px; 
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    width: 100%;
+    border-width: 0;
+    border-radius: 10px;
+    min-height: 40px;
+    font-size: 20px;
+    margin-top: 7%;
+    text-align: center;
+    display: block;
+}
+
+select {
+    border-width: 0;
+    border-radius: 10px;
+    min-height: 40px;
+    font-size: 20px;
+    margin-top: 5%;
+    width: 100%;
+    display: block;
+}
+
+a {
+    cursor: default;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.disabled:hover {
+    color: white;
+}
+
+a:hover {
+    color: khaki;
+}
+
+img {
+    margin-top: 0.5%;
+    width: 3%;
+}
+
+.img-back {
+    margin-left: 0.5%;
+}
+
+.img-audio {
+    float: right;
+    margin-right: 0.5%;
+}
+
+img:hover {
+    transition: ease;
+    width: 4%;
+    cursor: pointer;
+}

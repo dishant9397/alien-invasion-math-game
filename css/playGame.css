@@ -1,0 +1,119 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("/images/background.jpg"); 
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+body img {
+    width: 3%;
+    margin-top: 0.5%;
+}
+
+.img-back {
+    margin-left: 0.5%;
+}
+
+.img-audio {
+    float: right;
+    margin-right: 0.5%;
+}
+
+.img-save {
+    float: right;
+    margin-right: 0.5%;
+}
+
+.img-status {
+    float: right;
+    margin-right: 0.5%;
+}
+
+.img-quit {
+    float: right;
+    margin-right: 0.5%;
+}
+
+img:hover {
+    transition: ease;
+    width: 4%;
+    cursor: pointer;
+}
+
+.main-container {
+    position: absolute;
+    width: 100%;
+    height: 92.5vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto 18%;
+}
+
+.ufo h3 {
+    position: absolute;
+    text-align: center;
+    width: 20%;
+    margin-top: 2%;
+    color: black;
+}
+
+.img-objects {
+    width: 40%;
+    margin: 0 30%;
+}
+
+.img-objects:hover {
+    width: 40%;
+    margin: 0 30%;
+}
+
+.cannon h2{
+    position: absolute;
+    text-align: center;
+    padding: 0.4%;
+    background-color: white;
+}
+
+.time {
+    border: 5px solid blue;
+    padding: 3%;
+    border-radius: 50px;
+    left: 0.5%;
+    bottom: 0.5%;
+}
+
+.hits {
+    border: 5px solid green;
+    padding: 3%;
+    border-radius: 50px;
+    right: 4%;
+    bottom: 0.5%;
+}
+
+.miss {
+    border: 5px solid red;
+    border-radius: 50px;
+    padding: 3%;
+    right: 0.5%;
+    bottom: 0.5%;
+}
+
+.cannon h3{
+    position: absolute;
+    text-align: center;
+    width: 3%;
+    margin-left: 8.5%;
+    margin-top: 6%;
+    background-color: white;
+}
+
+.vertical-line {
+    z-index: -1;
+    position: absolute;
+    border-left: 4px solid red;
+}

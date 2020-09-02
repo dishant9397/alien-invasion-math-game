@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("/images/background.jpg"); 
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+div {
+    border-radius: 20px;
+    background-color:black;
+    opacity: 0.65;
+    position: absolute;
+}
+
+.main-container {
+    padding: 1.5%;
+    height: auto;
+    width: 25%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px; 
+}
+
+h2 {
+    margin-top: 2%;
+    margin-left: 2%;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+#hits {
+    color: green;
+}
+
+#miss {
+    color: red;
+}
+
+img {
+    margin-top: 0.5%;
+    width: 3%;
+}
+
+.img-home {
+    margin-left: 0.5%;
+}
+
+.img-audio {
+    float: right;
+    margin-right: 0.5%;
+}
+
+img:hover {
+    transition: ease;
+    width: 4%;
+    cursor: pointer;
+}
